@@ -1,4 +1,4 @@
-# AWS Lambda - Send email with AWS SES
+# AWS Lambda - Send emails with AWS SES
 
 This repository contains module for sending emails with book details using AWS SES
 
