@@ -1,0 +1,14 @@
+ [Amazing Book]
+
+** YOU'VE JUST SUBSCRIBED TO YOUR ${bookName} BOOK
+------------------------------------------------------------
+
+You can manage, share and subscribe to more books on the Amazing Book (${bookWebLink}) website too!
+
+<#list chapters as chapter>
+ 	* ${chapter.description}
+</#list>
+
+------------------------------------------------------------
+
+Copyright ©${currentYear} Amazing Book :), All rights reserved.

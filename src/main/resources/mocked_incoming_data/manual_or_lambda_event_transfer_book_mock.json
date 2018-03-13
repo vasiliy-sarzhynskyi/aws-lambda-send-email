@@ -1,0 +1,22 @@
+{
+  "headers": {},
+  "body": {
+    "bookName": "Streaming Data",
+    "bookId": "551100",
+    "chapters": [
+      {
+        "description": "Introducing streaming data",
+        "pages": 52
+      },
+      {
+        "description": "Analyzing streaming data",
+        "pages": 45
+      },
+      {
+        "description": "Algorithms for data analysis",
+        "pages": 55
+      }
+    ],
+    "emailAddress": "vasiliy.sarzhinskiy@gmail.com"
+  }
+}
