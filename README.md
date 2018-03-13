@@ -12,7 +12,11 @@ After that you will receive SMTP Username and SMTP Password, and you need to upd
 [config file](src/main/resources/config/config.properties) two properties: `aws.ses.username` and `aws.ses.password` 
 (put SMTP Username and SMTP Password instead of stars). Also update `app.fromEmailAddress` property with your verified email.
  
-Now you are ready to run project: [EmailSenderRunner class](src/main/java/com/sarzhv/lambda/sendemail/EmailSenderRunner.java)
+Now you are ready to run project locally: [EmailSenderRunner class](src/main/java/com/sarzhv/lambda/sendemail/EmailSenderRunner.java).
+
+In order to run project with AWS Lambda, you need to run [EmailSenderLambdaRequestHandler class](src/main/java/com/sarzhv/lambda/sendemail/EmailSenderLambdaRequestHandler.java)
+
+
   
 
 ## AWS architecture
